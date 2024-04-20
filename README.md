@@ -1,9 +1,31 @@
-# Amazon_Spark_NLP
+# Scalable NLP Analysis of 3.2 Million Amazon Reviews using PySpark and Spark-NLP
 Kaggle's Amazon reviews dataset NLP topic analysis with Spark
 
 Let's begin!
 
 # PySpark NLP
+
+## Introduction
+
+The rise of e-commerce has led to an explosion of online reviews, with millions of customers sharing their opinions on products and services every day. Analyzing these reviews can provide valuable insights for businesses, helping them to understand customer sentiment, identify trends, and improve their products and services. However, processing and analyzing large volumes of text data can be a daunting task, requiring significant computational resources and expertise.
+
+This project aims to demonstrate the power of scalable natural language processing (NLP) techniques in analyzing 3.2 million Amazon reviews. By leveraging the Apache Spark ecosystem and its Python API, PySpark, we can parallelize our workload and process large datasets efficiently. Specifically, we will use Spark-NLP, a library that provides high-performance NLP capabilities on top of Spark, to perform topic modeling and sentiment analysis on the review data.
+
+The objective of this project is to tag comments with topics using Latent Dirichlet Allocation (LDA) clustering, a popular unsupervised learning technique for topic modeling. We will also employ term frequency-inverse document frequency (tf-idf) to transform our text data into a numerical representation that can be fed into our machine learning models. By applying these techniques at scale, we can uncover hidden patterns and trends in the review data, providing actionable insights for businesses and consumers alike.
+
+The importance of this application lies in its ability to help businesses make data-driven decisions, improve customer satisfaction, and stay competitive in the market. By analyzing large volumes of review data, businesses can identify areas for improvement, optimize their product offerings, and develop targeted marketing strategies. Moreover, this project demonstrates the power of scalable NLP techniques in extracting insights from large datasets, highlighting the potential for similar applications in other domains, such as social media analysis, customer feedback analysis, and text classification.
+
+
+
+
+
+
+![png](Amazon_nlp_files/LDA.png)
+
+
+
+
+
 
 ## Objetive
 

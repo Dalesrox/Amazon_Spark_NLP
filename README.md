@@ -1,4 +1,6 @@
 # Scalable NLP Analysis of 3.2 Million Amazon Reviews using PySpark and Spark-NLP
+### All the analysis ran in just 14 minutes!!!
+
 Kaggle's Amazon reviews dataset NLP topic analysis with Spark
 
 Let's begin!
